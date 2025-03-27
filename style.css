@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(22, 22, 23, .8);
+    padding: 12px 150px;
+    color: white;
+    font-size: 12px;
+    position: sticky;
+    top: 0;
+}
+
+nav div {
+    cursor: pointer;
+}
+
+.offer {
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.link {
+    text-decoration: none;
+    color: #06c;
+}
+
+.link:hover {
+    text-decoration: underline;
+} 
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    padding: 40px;
+}
+
+section h2 {
+    font-size: 56px;
+    font-weight: 600;
+}
+
+section h3 {
+    font-size: 28px;
+    font-weight: 400; 
+}
+
+.links-cont a {
+    font-size: 21px;
+    font-weight: 400;
+    padding: 0 20px;
+}
+
+.mac {
+    background-image: url(images/macbook.jpg);
+}
+
+.pro-phone {
+    color: white;
+    background-image: url(images/iphone_pro.jpg);
+}
+
+.base-phone {
+    background-image: url(images/iphone_base.jpg);
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    gap: 10px;
+}
+
+.products-grid .links-cont a {
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+section h4 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+section h5 {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.watch {
+    color: white;
+    background-image: url(images/watch.jpg);
+}
+
+.ipad {
+    background-image: url(images/ipad.jpg);
+}
+
+.airpods {
+    color: white;
+    background-image: url(images/airpods.jpg);
+}
+
+.mac-pro {
+    background-image: url(images/mac_pro.jpg);
+}
+
+.homepod {
+    background-image: url(images/homepod.jpg);
+}
+
+.trade-in {
+    background-image: url(images/trade_in.jpg);
+}
+
+footer {
+    background-color: rgb(245, 245, 247);
+}
+
+.terms {
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 12px;
+    width: 75vw;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.terms a {
+    color: rgba(0, 0, 0, 0.72);
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color:rgba(0, 0, 0, 0.72);
+}
+
+.services h3 {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+} 
+
+.services ul {
+    font-size: 12px;
+    list-style: none;
+}
+
+.services ul li {
+    margin-bottom: 10px;
+}
+
+.contact {
+    font-size: 12px;
+    width: 75vw;
+    margin: auto;
+    color:rgba(0, 0, 0, 0.56);
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.ending {
+    width: 75vw;
+    margin: auto;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.72);
+    padding: 20px 0;
+}
+
+.ending :first-child {
+    color: rgba(0, 0, 0, 0.56);
+}
